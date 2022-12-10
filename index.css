@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Rubik Vinyl', cursive;
+    font-weight: bold;
+    text-align: center;
+
+    display: block;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: 'Rubik Vinyl';
+    margin-bottom: 12px;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+    width: max-content;
+    height: max-content;
+
+    border: 3px solid black;
+    background-color: rgba(0, 0, 0, 0.857);
+    padding: 12px;
+}
+
+.main-container {
+    box-shadow: 0 8px 8px 0 rgba(61, 60, 60, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border: 1px black;
+    border-radius: 8px;
+
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.inside-container {
+    margin: 56px;
+}
+
+#message_el {
+    font-weight: bold;
+    margin: 2px;
+}
+
+
+
+
+.buttons-container {
+    padding-top: 36px;
+}
+
+button {
+    color: black;
+    background-color: whitesmoke;
+    font-family: 'Rubik Vinyl';
+    font-size: 24px;
+    font-weight: bold;
+
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.934), 0 6px 20px 0 rgba(251, 168, 104, 0.381);
+}
+
+#draw-btn {
+    padding-left: 6px;
+    padding-right: 6px;
+    color: white;
+    background-color: goldenrod;
+}
+
+#new-btn {
+    padding-left: 6px;
+    padding-right: 6px;
+    color: white;
+    background-color: darkred;
+}
+
+
+
+
+/* Footer */
+#twitter {
+    color: white;
+    text-decoration: none;
+}
+
+#github-div {
+    margin-top: 8px;
+}
+
+.my-footer {
+    width: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    background-color: rgba(0, 0, 0, 0.632);
+
+    display: grid;
+    justify-content: center;
+}
