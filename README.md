@@ -2,6 +2,6 @@
 
 #### Built using raw HTML, CSS and Javascript
 
-Visit Demo :
+Visit Demo: <https://blackjack-393.netlify.app/>
 
 <img src="./static/screenshot.png">
